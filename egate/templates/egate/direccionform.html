@@ -1,0 +1,33 @@
+{% extends 'egate/layout.html' %}
+{% load widget_tweaks %}
+{% load materializecss %}
+
+{% block content %}
+<div>
+  <h2>Mi Direccion</h2>
+</div>
+<div>
+  <p>
+    Por favor ingrese su direcci&oacute;n o su ubicaci&oacute;n residencial
+  </p>
+</div>
+<div>
+	<form method="post">
+		{% csrf_token %}
+		{{ form.non_field_errors }}
+		<div class="fieldWrapper">
+			{{form.manzana.errors }}
+  			<label for="{{ form.manzana.id_for_label }}">Manzana</label>  		
+  			{{form.manzana }}
+		</div>
+		<div class="fieldWrapper">
+			{{form.villa.errors }}
+  			<label for="{{ form.villa.id_for_label }}">Villa</label>  		
+  			{{form.villa }}
+		</div>
+		<div class="fieldWrapper"> 
+  		<button type="submit">Agregar</button>
+  		</div>
+	</form>
+</div>
+{% endblock %}

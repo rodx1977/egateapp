@@ -1,0 +1,22 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: TestSite password reset
+From: webmaster@localhost
+To: rodx1977@yahoo.com
+Date: Thu, 16 Aug 2018 02:45:52 -0000
+Message-ID: <153438755209.1044.14671307840657832574@DESKTOP-PL5AT28>
+
+
+To initiate the password reset process for your rodx TestSite Account,
+click the link below:
+
+http://localhost:8000/myauth/reset/Nw/4yr-c746bc2383e8dc70ada1/
+
+If clicking the link above doesn't work, please copy and paste the URL in a new browser
+window instead.
+
+Sincerely,
+The TestSite Team
+
+-------------------------------------------------------------------------------

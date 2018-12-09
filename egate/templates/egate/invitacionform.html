@@ -1,0 +1,67 @@
+{% extends 'egate/layout.html' %}
+{% load widget_tweaks %}
+{% load materializecss %}
+{% block content %}
+<div>
+  <h2>Invitacion</h2>
+</div>
+
+<div>
+<form method="post">
+	{% csrf_token %}
+  {{ form.non_field_errors }}
+  <div class="fieldWrapper">
+  	
+  	{{form.fecha_invitacion.errors }}
+  	<label for="{{ form.fecha_invitacion.id_for_label }}">Fecha de Invitacion</label>
+  		
+  		{{form.fecha_invitacion | add_class:"datepicker"}} 		
+ 
+  </div>
+  <div class="fieldWrapper">
+  	{{form.nombre_invitado.errors}}
+  	<label for="{{ form.nombre_invitado.id_for_label }}">Nombres</label>
+  	{{form.nombre_invitado}}
+  </div>
+    <div class="fieldWrapper">
+  	{{form.apellido_invitado.errors}}
+  	<label for="{{ form.apellido_invitado.id_for_label }}">Apellidos</label>
+  	{{form.apellido_invitado}}  
+  </div>
+  <div class="fieldWrapper">
+  	{{form.cedula_invitado.errors}}
+  	<label for="{{ form.cedula_invitado.id_for_label }}">Documento de Identidad</label>
+  	{{form.cedula_invitado}}
+  </div>
+  
+  <div class="fieldWrapper">    	
+  		{{form.tipo_invitacion.errors}}
+  		<label for="{{ form.tipo_invitacion.id_for_label }}">La visita tiene caracter..</label>
+  		<div class="input-field">  		
+  		{{form.tipo_invitacion}}
+  		</div>  		
+  </div> 
+<div class="fieldWrapper">      
+      {{form.direccion_pk.errors}}
+      <label for="{{ form.direccion_pk.id_for_label }}">Direccion del Residente</label>
+      <div class="input-field">     
+      {{form.direccion_pk}}
+      </div>      
+  </div>
+  <div class="fieldWrapper">
+    {{form.save_contact.errors}}
+    
+    <div>
+      <label for="{{ form.save_contact.id_for_label }}"></label>  
+      {{form.save_contact | materializecss}}          
+    </div>
+
+  </div>
+ 
+  <div class="fieldWrapper"> 
+  	<button type="submit">Invitar</button>
+  </div>
+</form>
+</div>
+
+{% endblock %}

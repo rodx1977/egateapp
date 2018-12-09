@@ -1,0 +1,54 @@
+{% extends 'egate/layout.html' %}
+{% load widget_tweaks %}
+{% load materializecss %}
+{% block content %}
+<div>
+  <h2>Grabar un Invitado</h2>
+</div>
+<div>
+<form method="post">
+	{% csrf_token %}
+  {{ form.non_field_errors }}
+  
+  <div class="fieldWrapper">
+    {{form.nombres.errors}}
+    <label for="{{ form.nombres.id_for_label }}">Nombres</label>
+    {{ form.nombres }}
+  </div>
+
+  <div class="fieldWrapper">
+    {{ form.apellidos.errors }}
+    <label for="{{ form.apellidos.id_for_label }}">Apellidos</label>
+    {{ form.apellidos }}
+  </div>
+  
+  <div class="fieldWrapper">
+    {{ form.cedula.errors}}
+    <label for="{{ form.cedula.id_for_label }}">Cedula</label>
+    {{ form.cedula }}
+  </div>
+  <div class="fieldWrapper">
+    {{form.genero.errors}}
+    <label for="{{ form.genero.id_for_label }}">Sexo</label>
+    {{ form.genero }}
+  </div>
+  <div class="fieldWrapper">
+    {{ form.email.errors }}
+    <label for="{{ form.email.id_for_label }}">Email</label>
+    {{ form.email }}
+  </div>
+  <div class="fieldWrapper">
+    {{ form.telefono.errors }}
+    <label for="{{ form.telefono.id_for_label }}">Telefono</label>
+    {{ form.telefono }}
+  </div>
+  <div class="fieldWrapper">
+    {{ form.movil.errors}}
+    <label for="{{ form.movil.id_for_label }}">Movil</label>
+    {{ form.movil }}
+  </div>
+  <input type="submit"/>
+</form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,65 @@
+{% extends 'egate/layout.html' %}
+{% block content %}
+
+<div>
+<h3>Invitados</h3>
+<table>
+  <tr>
+    <th>Nombres</th>
+    <th>Apellidos</th>
+    <th>Cedula</th>
+    <th>Fecha de Invitacion</th>
+    <th>Cuando se Genero Invitacion</th>
+    <th>Estado de Invitacion</th>
+    <th>Acciones</th>
+    
+  </tr>
+{%  for today in invitation_list %}
+  <tr>
+    <td>{{today.nombre_invitado}}</td>
+    <td>{{today.apellido_invitado}}</td>
+    <td>{{today.cedula_invitado}}</td>
+    <td>{{today.fecha_invitacion | date:"D d M Y"}}</td>
+    <td>{{today.fecha_emision | date:"D d M Y, H : i"}}</td>
+    <td>{{today.estado_invitacion | capfirst}}</td>
+    <td>{% if today.estado_invitacion == "P" %}
+       <a href="{% url 'changeinvitationstate' today.id %}">Cancelar</a>
+      {% elif today.estado_invitacion == "R" %}
+        <a href="#">Invitar</a>
+      {% endif %}
+    </td>
+  </tr>
+{% endfor %}  
+</table>
+<p>Nomenclatura: p(pendiente), r(realizado), c(cancelado)</p>
+</div>
+
+<div>
+<h3>Proveedores</h3>
+<table>
+  <tr>
+    <th>Nombre del Proveedor</th>    
+    <th>Fecha de Autorizacion</th>
+    <th>Cuando se Genero Autorizaci&oacute;n</th>
+    <th>Estado de Autorizaci&oacute;n</th>
+    <th>Acciones</th>
+    
+  </tr>
+{%  for aut in autorizacion_list %}
+  <tr>
+    <td>{{aut.nombre_proveedor}}</td>        
+    <td>{{aut.fecha_autorizacion | date:"D d M Y"}}</td>
+    <td>{{aut.fecha_emision | date:"D d M Y, H : i"}}</td>
+    <td>{{aut.estado_autorizacion | capfirst}}</td>
+    <td>{% if aut.estado_autorizacion == "P" %}
+        Cancelar
+      {% elif aut.estado_autorizacion == "R" %}
+        Invitar
+      {% endif %}
+    </td>
+  </tr>
+{% endfor %}  
+</table>
+<p>Nomenclatura: p(pendiente), r(realizado), c(cancelado)</p>
+</div>
+{% endblock %}

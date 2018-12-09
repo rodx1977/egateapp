@@ -1,0 +1,4 @@
+<option value="">---------</option>
+{% for prov in proveedores %}
+<option value="{{ prov.pk }}">{{ prov.nombres_proveedor }}</option>
+{% endfor %}

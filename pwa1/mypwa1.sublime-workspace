@@ -1,0 +1,921 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"toda",
+				"todayInvitations\tfunction"
+			],
+			[
+				"logi",
+				"login_url"
+			],
+			[
+				"login",
+				"login_required\tmodule"
+			],
+			[
+				"fec",
+				"fecha_invitacion"
+			],
+			[
+				"fecha",
+				"fecha_invitacion"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"ced",
+				"cedula_data\tstatement"
+			],
+			[
+				"esta",
+				"estado_autorizacion"
+			],
+			[
+				"get",
+				"get_field"
+			],
+			[
+				"week",
+				"week_list_provider\tstatement"
+			],
+			[
+				"toa",
+				"today_list_provider\tstatement"
+			],
+			[
+				"date",
+				"datetime\tmodule"
+			],
+			[
+				"que",
+				"queryset"
+			],
+			[
+				"prov",
+				"proveedores"
+			],
+			[
+				"Pro",
+				"proveedores\tstatement"
+			],
+			[
+				"n",
+				"nombre_proveedor"
+			],
+			[
+				"nom",
+				"nombre_categoria_id\tstatement"
+			],
+			[
+				"nombres",
+				"nombres_categoria"
+			],
+			[
+				"nomb",
+				"nombres_categoria"
+			],
+			[
+				"q",
+				"queryset"
+			],
+			[
+				"my",
+				"myId\tstatement"
+			],
+			[
+				"Au",
+				"AutorizaProveedorForm\tclass"
+			],
+			[
+				"dire",
+				"direcciondata"
+			],
+			[
+				"A",
+				"AutorizarProveedor\tclass"
+			],
+			[
+				"nombre",
+				"nombre_proveedor"
+			],
+			[
+				"ESTAD",
+				"ESTADO_PROVEEDOR\tstatement"
+			],
+			[
+				"direccion",
+				"direccionpk"
+			],
+			[
+				"direccio",
+				"direccion_pk"
+			],
+			[
+				"Invitacion",
+				"InvitacionForm\tclass"
+			],
+			[
+				"dict",
+				"dictinicial\tstatement"
+			],
+			[
+				"Invit",
+				"InvitacionForm\tclass"
+			],
+			[
+				"CA",
+				"CASCADE"
+			],
+			[
+				"D",
+				"DireccionForm\tclass"
+			],
+			[
+				"Ca",
+				"CASCADE"
+			],
+			[
+				"class",
+				"classmethod\tclass"
+			],
+			[
+				"form",
+				"form_data\tstatement"
+			],
+			[
+				"time",
+				"timedelta\tclass"
+			],
+			[
+				"Invi",
+				"InvitacionForm\tclass"
+			],
+			[
+				"de",
+				"debug\tfunction"
+			],
+			[
+				"change",
+				"changeYear"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"Invitado",
+				"InvitadoForm\tclass"
+			],
+			[
+				"days",
+				"days_forward\tstatement"
+			],
+			[
+				"fech",
+				"fecha_invitacion__date"
+			],
+			[
+				"fehca",
+				"fecha_invitacion__date"
+			],
+			[
+				"today",
+				"todayInvitations"
+			],
+			[
+				"Modl",
+				"ModelForm\tModelForm"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"user",
+				"userprofile"
+			],
+			[
+				"User",
+				"UserProfileForm"
+			],
+			[
+				"profile",
+				"profile_form\tstatement"
+			],
+			[
+				"U",
+				"UserProfile"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"crea",
+				"created\tparam"
+			],
+			[
+				"Model",
+				"ModelForm\tModelForm"
+			],
+			[
+				"url",
+				"urlpatterns\tstatement"
+			],
+			[
+				"id",
+				"id_unico"
+			],
+			[
+				"servicio",
+				"serviciodomiciliolist"
+			],
+			[
+				"object",
+				"object"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"context",
+				"context_object_name"
+			],
+			[
+				"list",
+				"ListView\tmodule"
+			],
+			[
+				"Se",
+				"ServicioDomicilioList\tclass"
+			],
+			[
+				"visi",
+				"visitante\tstatement"
+			],
+			[
+				"manzana",
+				"manzana_villa"
+			],
+			[
+				"Re",
+				"ResidenteByVilla\tclass"
+			],
+			[
+				"Res",
+				"ResidenteByVilla"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"visitor_",
+				"visitor_name\tstatement"
+			],
+			[
+				"Resident",
+				"ResidenteByVilla\tclass"
+			],
+			[
+				"ser",
+				"servicio_name\tstatement"
+			],
+			[
+				"Da",
+				"DateTimeField"
+			],
+			[
+				"Date",
+				"DateField"
+			],
+			[
+				"Httr",
+				"HttpResponseRedirect"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect\tmodule"
+			],
+			[
+				"invitacion",
+				"invitacionform\tstatement"
+			],
+			[
+				"vi",
+				"viewcontacts"
+			],
+			[
+				"Update",
+				"UpdateInvitacion\tclass"
+			],
+			[
+				"Upda",
+				"UpdateView\timport"
+			],
+			[
+				"I",
+				"InvitacionDetailView\tclass"
+			],
+			[
+				"res",
+				"resident_id"
+			],
+			[
+				"De",
+				"DetailView\timport"
+			],
+			[
+				"C",
+				"ContactDetailView\tclass"
+			],
+			[
+				"as",
+				"as_view"
+			],
+			[
+				"In",
+				"InvitacionListView\tclass"
+			],
+			[
+				"Invitacio",
+				"InvitacionListView\tclass"
+			],
+			[
+				"template",
+				"template_name"
+			],
+			[
+				"method",
+				"method_decorator\timport"
+			],
+			[
+				"rese",
+				"residente_id"
+			],
+			[
+				"V",
+				"Visitante\tclass"
+			],
+			[
+				"obj",
+				"objform\tstatement"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"Inv",
+				"InvitacionForm\tclass"
+			],
+			[
+				"forms",
+				"formset\tstatement"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"Prof",
+				"ProfileInlineFormSet\tstatement"
+			],
+			[
+				"create",
+				"create_profile\tfunction"
+			],
+			[
+				"codigo",
+				"codigo_externo"
+			],
+			[
+				"add",
+				"AddContactoForm"
+			],
+			[
+				"H",
+				"HttpResponseRedirect\timport"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"borr",
+				"BORRADOR\tstatement"
+			],
+			[
+				"mx",
+				"max_length"
+			],
+			[
+				"S",
+				"SOCIAL\tstatement"
+			],
+			[
+				"max",
+				"max_length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/rodx1/djangoproject/pwa1/egate/models.py",
+			"settings":
+			{
+				"buffer_size": 3939,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rodx1/djangoproject/pwa1/egate/views.py",
+			"settings":
+			{
+				"buffer_size": 7041,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/view_invitations.html",
+			"settings":
+			{
+				"buffer_size": 1737,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rodx1/djangoproject/pwa1/egate/urls.py",
+			"settings":
+			{
+				"buffer_size": 945,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/main.html",
+			"settings":
+			{
+				"buffer_size": 606,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"uni",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/rodx1/djangoproject/pwa1",
+		"/C/Users/rodx1/djangoproject/pwa1/egate",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate"
+	],
+	"file_history":
+	[
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/invitacionform.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/views.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/urls.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/tests/test_forms.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/tests/test_views.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/tests/test_models.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/models.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/forms.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/view_invitations.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/dropdownproveedores.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/autorizaproveedorform.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/layout.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/invitadoform.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/direccionform.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/main.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/admin.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/index.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0018_invitacion_direccion_pk.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0017_direccion.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/tests/__init__.py",
+		"/C/Users/rodx1/djangoproject/pwa1/pwa1/settings.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0013_invitado_dob.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0011_invitado_edad.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0009_invitado_dob.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0010_auto_20180906_2304.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0008_invitado_edad.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0005_auto_20180906_2238.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0006_auto_20180906_2240.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/migrations/0007_remove_invitado_edad.py",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/today_invitations.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/login.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/change_password.html",
+		"/C/Users/rodx1/djangoproject/pwa1/userprofile/views.py",
+		"/C/Users/rodx1/djangoproject/pwa1/pwa1/mypwa1.sublime-project",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/views.py",
+		"/C/Users/rodx1/djangoproject/pwa1/userprofile/templates/userprofile/profile.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/models.py",
+		"/C/Users/rodx1/djangoproject/pwa1/userprofile/models.py",
+		"/C/Users/rodx1/djangoproject/pwa1/userprofile/urls.py",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/urls.py",
+		"/C/Users/rodx1/djangoproject/pwa1/pwa1/urls.py",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/tests.py",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/apps.py",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/admin.py",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/password_reset_complete.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/password_reset_confirm.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/password_reset_done.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/password_reset_email.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/password_reset_subject.txt",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/password_reset.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/myauthapp/layout.html",
+		"/C/Users/rodx1/djangoproject/pwa1/myauthapp/templates/authapp/layout.html",
+		"/C/Users/rodx1/djangoproject/pwa1/authapp/templates/authapp/layout.html",
+		"/C/Users/rodx1/djangoproject/pwa1/authapp/urls.py",
+		"/C/Users/rodx1/djangoproject/pwa1/authapp/apps.py",
+		"/C/Users/rodx1/djangoproject/pwa1/userprofile/forms.py",
+		"/C/Users/rodx1/djangoproject/pwa1/userprofile/templates/userprofile/profileready.html",
+		"/C/Users/rodx1/djangoproject/pwa1/egate/apps.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/models.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/forms.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/views.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/urls.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/editprofile.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/garita/settings.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/mainview.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/contactlist_view.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/serviciodomicilio.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/serviciodomiciliolist_view.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/invitacion.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/invitaciondetail_view.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/invitacionlist_view.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/admin.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/registration/password_reset_done.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/index.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/registration/password_reset_email.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/registration/password_reset_form.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/registration/password_reset_subject.txt",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/registration/password_reset_confirm.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/registration/password_reset_complete.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/login.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/change_password.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/contactdetail_view.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/changepassworddone.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/addcontact.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/invitacionapp/templates/invitacionapp/contact_update_form.html",
+		"/C/Users/rodx1/Documents/development/proyectos python/garita/garita/urls.py",
+		"/C/Users/rodx1/Documents/development/proyectos python/contactdetail_view.html",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/templates/polls/results.html",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/static/polls/style.css",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/views.py",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/templates/polls/detail.html",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/admin.py",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/templates/polls/index.html",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/urls.py",
+		"/C/Users/rodx1/Documents/development/django/project1/polls/models.py",
+		"/C/Users/rodx1/Documents/development/django/project1/rodx/settings.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Charfield",
+			"LOGIN_URL",
+			"Charfield"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CharField"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/rodx1/djangoproject/pwa1/egate/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1765,
+								1782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/rodx1/djangoproject/pwa1/egate/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7037,
+								7037
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2874.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/view_invitations.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								729,
+								729
+							]
+						],
+						"settings":
+						{
+							"SL.23.region_keys":
+							[
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/rodx1/djangoproject/pwa1/egate/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								334
+							]
+						],
+						"settings":
+						{
+							"SL.25.region_keys":
+							[
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/rodx1/djangoproject/pwa1/egate/templates/egate/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mypwa1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,31 @@
+{%extends 'egate/layout.html' %}
+
+{% block content %}
+
+
+<div>
+	<a href="{% url 'todayinvitations' %}">Invitaciones del Dia</a>
+</div>
+
+<div>
+	<a href="{% url 'timeslotnextinvitations' 'thisweek' %}">Invitaciones de esta Semana</a>
+</div>
+
+<div>
+	<a href="{% url 'timeslotinvitations' 'lastweek' %}">Invitaciones Hace 7 dias</a>
+</div>
+<div>
+	<a href="{% url 'timeslotinvitations' 'lastmonth' %}">Invitaciones del Mes</a>
+</div>
+<div>
+	<a href="{% url 'timeslotinvitations' 'all' %}">Todas mis invitaciones</a>
+</div>
+
+<div>
+	<a href="{% url 'crearinvitado' %}">Grabar Invitado</a>
+</div>
+
+
+
+
+{% endblock %}

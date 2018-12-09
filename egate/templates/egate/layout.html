@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Egate App</title>
+  <link href="http://joinpoint.org/saebl/favicon_yinyang.ico" rel="icon" type="image/x-icon">
+  
+  {% block css %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/css/materialize.min.css" integrity="sha256-qj3p6P1fJIV+Ndv7RW1ovZI2UhOuboj9GcODzcNFIN8=" crossorigin="anonymous" />
+  {% endblock css %}
+  
+  <!-- [if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif] -->
+  
+</head>
+<body>
+<header>
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+          <li><a href="{% url 'change_password' %}">Cambiar Password</a></li>
+          <li class="divider"></li>
+          <li><a href="{% url 'logout' %}">Logout User</a></li>
+  </ul>  
+  <nav>
+    <div class="nav-wrapper">
+      <a href="{% url 'main' %}" class="brand-logo center">EGate APP</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        {% if user.is_authenticated %}
+        <li class="active"><a href="{% url 'main' %}">Home</a></li>
+        <li><a href="{% url 'invitacion' %}">Autorizar Invitados</a></li> 
+        <li><a href="{% url 'autorizarproveedor' %}">Autorizar Proveedor</a></li>   
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1" >Mi Cuenta<i class="material-icons left">arrow_drop_down</i></a></li>    
+        {% endif %}     
+      </ul>
+    </div>
+  </nav>     
+  
+</header>  
+  <div class="container">
+    {% block content %}
+    {% endblock %}
+    <br>
+  </div>
+  <footer></footer>
+{% block javascript %}
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/js/materialize.min.js" integrity="sha256-SrBfGi+Zp2LhAvy9M1bWOCXztRU9Ztztxmu5BcYPcPE=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+
+// Initialize materialize data picker
+$('.datepicker').datepicker({format: 'yyyy-mm-dd',autoClose:true,changeMonth:true,changeYear:false});
+$('.datepicker-i').datepicker({format: 'yyyy-mm-dd',autoClose:true,changeMonth:true,changeYear:true,minDate:new Date(1950,0,1),maxDate:new Date(),defaultDate: new Date(1950,0,1),yearRange:70,});
+$('select').formSelect();
+
+$(".dropdown-trigger").dropdown();
+
+  $("#id_nombres_categoria").change(function(){
+
+    var url = $('#autorizaproveedorform').attr("data-proveedor-url");
+    var categoria_id = $(this).val();
+
+    $.ajax({
+
+      url: url,
+      data:{'nombres_categoria':categoria_id},
+      success: function(data){
+        $("#id_nombre_proveedor").html(data);
+      },
+    });
+
+  });
+
+});
+</script>
+{% endblock javascript %}
+</body>
+</html>
